@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurum Events | Event Management</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" aria-label="Primary navigation">
+    <a class="brand" href="#top" aria-label="Aurum Events home">
+      <span class="brand-mark">A</span>
+      <span>Aurum Events</span>
+    </a>
+    <nav class="nav-links" aria-label="Main menu">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#packages">Packages</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-action" href="#contact">Plan an Event</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="Elegant outdoor event dinner with warm lights"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Full-service event planning</p>
+        <h1>Aurum Events</h1>
+        <p class="hero-copy">
+          Corporate launches, weddings, galas, and private celebrations planned with calm precision and memorable style.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Start Planning</a>
+          <a class="button secondary" href="#work">View Portfolio</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Quick event estimate">
+        <span class="panel-label">Live estimate</span>
+        <strong id="heroEstimate">$18,500</strong>
+        <span id="heroDetail">120 guests, signature plan</span>
+      </aside>
+    </section>
+
+    <section class="intro-band">
+      <div class="stat">
+        <strong>320+</strong>
+        <span>Events produced</span>
+      </div>
+      <div class="stat">
+        <strong>42</strong>
+        <span>Vendor partners</span>
+      </div>
+      <div class="stat">
+        <strong>4.9/5</strong>
+        <span>Client rating</span>
+      </div>
+      <div class="stat">
+        <strong>24 hr</strong>
+        <span>Proposal turnaround</span>
+      </div>
+    </section>
+
+    <section class="section split" id="services">
+      <div>
+        <p class="eyebrow">Services</p>
+        <h2>Everything your event needs, handled by one thoughtful team.</h2>
+        <p class="section-copy">
+          From first moodboard to last guest departure, Aurum coordinates strategy, design, logistics, hospitality, and production so the day feels effortless.
+        </p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <span class="icon">01</span>
+          <h3>Concept & Design</h3>
+          <p>Theme direction, color story, spatial planning, decor, lighting, and guest-flow design.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">02</span>
+          <h3>Venue & Vendors</h3>
+          <p>Venue shortlists, catering, entertainment, florals, AV, rentals, gifting, and contract support.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">03</span>
+          <h3>Guest Experience</h3>
+          <p>Invitations, check-in, seating, transport, hospitality desks, and detailed day-of timelines.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">04</span>
+          <h3>Production Control</h3>
+          <p>Run-of-show, staffing, technical cues, contingency plans, and on-site command.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Recent event styles</h2>
+      </div>
+      <div class="gallery">
+        <article class="gallery-card large">
+          <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80" alt="Wedding reception tables with candles and flowers">
+          <div>
+            <span>Wedding</span>
+            <strong>Lakeside Reception</strong>
+          </div>
+        </article>
+        <article class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=80" alt="Conference audience watching a presentation">
+          <div>
+            <span>Corporate</span>
+            <strong>Leadership Summit</strong>
+          </div>
+        </article>
+        <article class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80" alt="Concert crowd at a live event">
+          <div>
+            <span>Entertainment</span>
+            <strong>Launch Night</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section planner" id="packages">
+      <div class="section-heading">
+        <p class="eyebrow">Packages</p>
+        <h2>Choose a planning level</h2>
+      </div>
+      <div class="package-grid" role="list">
+        <button class="package-card" type="button" data-package="essential" data-price="8500" aria-pressed="false">
+          <span>Essential</span>
+          <strong>$8,500+</strong>
+          <small>Coordination, vendor plan, event timeline, day-of lead.</small>
+        </button>
+        <button class="package-card active" type="button" data-package="signature" data-price="18500" aria-pressed="true">
+          <span>Signature</span>
+          <strong>$18,500+</strong>
+          <small>Design, vendors, logistics, guest experience, full production.</small>
+        </button>
+        <button class="package-card" type="button" data-package="premier" data-price="32500" aria-pressed="false">
+          <span>Premier</span>
+          <strong>$32,500+</strong>
+          <small>Destination planning, custom builds, VIP hospitality, multi-day support.</small>
+        </button>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-copy">
+        <p class="eyebrow">Inquiry</p>
+        <h2>Tell us what you are planning.</h2>
+        <p class="section-copy">
+          Adjust the quick brief and the estimate will update instantly. Submit it to prepare a planning consultation.
+        </p>
+      </div>
+      <form class="inquiry-form" id="inquiryForm">
+        <label>
+          Event type
+          <select id="eventType" name="eventType">
+            <option value="wedding">Wedding</option>
+            <option value="corporate">Corporate event</option>
+            <option value="private">Private celebration</option>
+            <option value="festival">Festival or concert</option>
+          </select>
+        </label>
+        <label>
+          Event date
+          <input type="date" name="eventDate" required>
+        </label>
+        <label>
+          Guests
+          <input id="guestCount" type="range" min="40" max="600" value="120" step="10">
+          <span class="range-value"><strong id="guestValue">120</strong> guests</span>
+        </label>
+        <label>
+          Your name
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+        <label class="full">
+          Notes
+          <textarea name="notes" rows="4" placeholder="Venue ideas, budget, style, or must-haves"></textarea>
+        </label>
+        <div class="estimate-box">
+          <span>Estimated planning budget</span>
+          <strong id="formEstimate">$18,500</strong>
+        </div>
+        <button class="button primary full" type="submit">Request Proposal</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Aurum Events</p>
+    <p>hello@aurumevents.example | +1 555 014 8820</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
